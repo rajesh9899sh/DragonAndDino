@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    transition: 0.4s;
     padding: 0;
 }
 body{
@@ -18,7 +19,7 @@ body{
     background-image: url(dinosour.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 235px;
+    width: 215px;
     height: 120px;
     position: absolute;
     bottom: 0;
@@ -26,9 +27,9 @@ body{
 }
 
 .obstacle{
-    width: 180px;
-    height: 150px;
-    background-image: url(images.jpeg);
+    width: 100px;
+    height: 100px;
+    background-image: url(images.png);
     background-size: cover;
     position: absolute;
     bottom: 0;
@@ -68,7 +69,7 @@ body{
         bottom: 0;
     }
     50%{
-        bottom: 400px;
+        bottom: 300px;
     }
     100%{
         bottom: 0;

@@ -42,11 +42,11 @@ setInterval(() => {
     offSetX= Math.abs(dx-ox);
     offSetY= Math.abs(dy-oy);
     // console.log(offSetX,offSetY);
-    if(offSetX<180 && offSetY< 40){
+    if(offSetX<150 && offSetY< 40){
         gameOver.style.visibility= 'visible';
         obstacle.classList.remove('obstacleAni');
     } 
-    else if(offSetX<73 && cross){
+    else if(offSetX<50 && cross){
         score+=1;
         updateScore(score);
         cross=false;
